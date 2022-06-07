@@ -1,0 +1,52 @@
+@media(max-width: 650px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .titulo-secao{
+        font-size: 30px;
+    }
+    #cabecalho .container{
+        display: block;
+        padding: 10px;
+    }
+
+    #cabecalho #logo{
+        margin: 0 auto;
+        display: block;
+        width: 20px;
+       
+    }
+
+    #cabecalho nav{
+        margin-top: 10px;
+        display: none;
+       
+    }
+
+    #cabecalho nav li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    #versoes #modelos{
+        
+        grid-template-columns: repeat(2, auto);
+        
+    }
+
+    #fotos #galeria-fotos{
+    
+        grid-template-columns: repeat(2, auto);
+        
+    }
+
+    @media (max-width: 380px){
+        #versoes #modelos{
+            display: block;
+        }
+        
+    }
+
+
+}
